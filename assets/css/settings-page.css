@@ -1,0 +1,93 @@
+#templator-settings .spinner {
+    margin: 0 auto 1em auto;
+    width: 100%;
+}
+
+#templator-menu-page {
+	margin-top: 10px;
+}
+
+#templator-menu-page .templator-menu-page-title {
+	float: left;
+    font-size: 23px;
+    font-weight: 400;
+    margin: 0 0px 5px 0;
+    padding: 0;
+    line-height: 30px;
+}
+
+.templator:before {
+    left: -4px;
+    position: relative;
+    content: "\f463";
+    display: inline-block;
+    font-size: 20px;
+    font-family: dashicons;
+    text-decoration: inherit;
+    font-weight: normal;
+    font-style: normal;
+    vertical-align: top;
+    text-align: center;
+    transition: color .1s ease-in 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.add-to-library i {
+    font-size: 100%;
+    vertical-align: middle;
+    line-height: 1.5;
+}
+
+.add-to-library i.dashicons-update {
+    font-size: 18px;
+    line-height: 20px;
+    margin-right: 0.1em;
+    margin-bottom: 0.1em;
+}
+
+.add-to-library i.loading {
+    -webkit-animation: cssAnimation .72s ease infinite;
+    -moz-animation: cssAnimation .72s ease infinite;
+    -o-animation: cssAnimation .72s ease infinite;
+ }
+
+ @-webkit-keyframes cssAnimation {
+    from { -webkit-transform: rotate(0); }
+    to { -webkit-transform: rotate(360deg); }
+ }
+ @-moz-keyframes cssAnimation {
+    from { -moz-transform: rotate(0); }
+    to { -moz-transform: rotate(360deg); }
+ }
+ @-o-keyframes cssAnimation {
+    from { -o-transform: rotate(0); }
+    to { -o-transform: rotate(360deg); }
+}
+
+.theme-browser .theme.importing {
+    cursor: pointer;
+}
+.theme-browser .theme.importing .theme-screenshot img {
+    opacity: 0.4;
+}
+.theme-browser .theme.importing .theme-screenshot {
+    background: #fff;
+}
+.theme-browser .theme.importing .more-details,
+.theme-browser .theme.importing .theme-actions {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    opacity: 1;
+}
+.theme-browser .theme .more-details.notice {
+    color: #444;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    border-radius: 0;
+    font-size: 1em;
+    font-weight: normal;
+    background: #fafafa;
+    text-shadow: none;
+}

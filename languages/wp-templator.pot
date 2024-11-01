@@ -1,0 +1,296 @@
+# Copyright (C) 2018 Brainstorm Force
+# This file is distributed under the same license as the Templator package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Templator 1.0.3.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-templator\n"
+"POT-Creation-Date: 2018-06-11 10:16:11+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
+
+#: classes/class-templator-admin.php:75 classes/class-templator-admin.php:185
+#: classes/export/class-templator-export.php:93
+msgid "Set Screenshot Image"
+msgstr ""
+
+#: classes/class-templator-admin.php:83 classes/class-templator-admin.php:182
+#: classes/export/class-templator-export.php:90
+msgid "Remove Screenshot Image"
+msgstr ""
+
+#: classes/class-templator-admin.php:127
+msgid "Template Screenshot"
+msgstr ""
+
+#: classes/class-templator-api.php:121
+msgid "Your API Key is not valid. Please add valid API Key."
+msgstr ""
+
+#: classes/class-templator-api.php:349
+msgid "Request successfully processed!"
+msgstr ""
+
+#: classes/class-templator-license.php:67
+msgid "Activate Templator API"
+msgstr ""
+
+#: classes/class-templator-license.php:77
+#: classes/class-templator-license.php:94
+msgid "API Key"
+msgstr ""
+
+#: classes/class-templator-license.php:79
+msgid "Enter your API key"
+msgstr ""
+
+#: classes/class-templator-license.php:81
+#. translators: %1$s is site url.
+msgid ""
+"If you don't have API key, you can get it from <a target=\"_blank\" "
+"href=\"%1$s\">here</a>."
+msgstr ""
+
+#: classes/class-templator-license.php:86
+msgid "Activate"
+msgstr ""
+
+#: classes/class-templator-license.php:96
+msgid "******************"
+msgstr ""
+
+#: classes/class-templator-license.php:101
+msgid "Deactivate"
+msgstr ""
+
+#: classes/class-templator-license.php:119
+#: classes/class-templator-license.php:121
+msgid "Settings"
+msgstr ""
+
+#: classes/class-templator-license.php:119
+msgid "Deactivate API"
+msgstr ""
+
+#: classes/class-templator-license.php:121
+msgid "Activate API"
+msgstr ""
+
+#: classes/class-templator-remote-api.php:119
+msgid "You didn't enter the API key. Please try again."
+msgstr ""
+
+#: classes/class-templator-rest-api.php:89
+msgid ""
+"To process the request please add 'post_id', 'license_key' and "
+"'export_status' details."
+msgstr ""
+
+#: classes/class-templator-rest-api.php:93
+msgid "API Key not found on your site. Please validate API Key."
+msgstr ""
+
+#: classes/class-templator-rest-api.php:97
+msgid "Invalid API Key."
+msgstr ""
+
+#: classes/class-templator-rest-api.php:103
+#. translators: %1$d is post id and %2$s is the exported template status.
+msgid "Updated export post %1$d status with '%2$s'."
+msgstr ""
+
+#: classes/export/class-templator-export.php:66
+#: classes/export/class-templator-export.php:165
+msgid "Export Template"
+msgstr ""
+
+#: classes/export/class-templator-export.php:77
+msgid "Enter Categories"
+msgstr ""
+
+#: classes/export/class-templator-export.php:79
+msgid "About, Contact"
+msgstr ""
+
+#: classes/export/class-templator-export.php:83
+msgid "Screenshot"
+msgstr ""
+
+#: classes/export/class-templator-export.php:104
+msgid "Export"
+msgstr ""
+
+#: classes/export/class-templator-export.php:115
+#. translators: %1$d activate api link, %2$s get api link.
+msgid ""
+"API key is not active on your website. Please <a href=\"%1$s\">activate API "
+"key</a> to export template on cloud server.<br/>If you don't have API key, "
+"you can get it from <a target=\"_blank\" href=\"%2$s\">here</a>."
+msgstr ""
+
+#: classes/export/class-templator-export.php:122
+msgid "This template was already exported. Exporting again?"
+msgstr ""
+
+#: classes/export/class-templator-export.php:127
+msgid ""
+"Template export is in process. Please refresh your page in some time to "
+"know the export status."
+msgstr ""
+
+#: classes/export/class-templator-export.php:157
+msgid "Export to Templator"
+msgstr ""
+
+#: classes/export/class-templator-export.php:160
+msgid "Exported"
+msgstr ""
+
+#: classes/export/class-templator-export.php:162
+msgid "Export In Process"
+msgstr ""
+
+#: classes/export/class-templator-export.php:224
+#. translators: %1$s Post id.
+msgid "Invalid template ID %1$s."
+msgstr ""
+
+#: classes/export/class-templator-export.php:238
+msgid "Not a elementor template. Now we support only elementor page builder."
+msgstr ""
+
+#: classes/import/class-templator-import.php:72
+msgid "Loading Templates"
+msgstr ""
+
+#: classes/import/class-templator-import.php:74
+#: classes/import/class-templator-import.php:87
+msgid "Getting templates from the cloud. Please wait for the moment."
+msgstr ""
+
+#: classes/import/class-templator-import.php:85
+msgid "Searching Template.."
+msgstr ""
+
+#: classes/import/class-templator-import.php:96
+msgid "Importing.."
+msgstr ""
+
+#: classes/import/class-templator-import.php:105
+#: classes/import/class-templator-import.php:133
+msgid "Imported"
+msgstr ""
+
+#: classes/import/class-templator-import.php:106
+#: classes/import/class-templator-import.php:134
+msgid "Thanks for patience"
+msgstr ""
+
+#: classes/import/class-templator-import.php:106
+msgid "Closing the window."
+msgstr ""
+
+#: classes/import/class-templator-import.php:115
+msgid "You don't have templates in the cloud yet."
+msgstr ""
+
+#: classes/import/class-templator-import.php:116
+msgid "Please export any pages as template and get started.."
+msgstr ""
+
+#: classes/import/class-templator-import.php:134
+msgid "Redirecting to the Elementor edit window."
+msgstr ""
+
+#: classes/import/class-templator-import.php:151
+msgid "Import"
+msgstr ""
+
+#: classes/import/class-templator-import.php:153
+msgid "Activate API Key"
+msgstr ""
+
+#: classes/import/class-templator-import.php:172
+msgid "All"
+msgstr ""
+
+#: classes/import/class-templator-import.php:178
+msgid "Search Sites"
+msgstr ""
+
+#: classes/import/class-templator-import.php:179
+msgid "Search Template..."
+msgstr ""
+
+#: classes/import/class-templator-import.php:194
+#: classes/import/class-templator-import.php:252
+msgid "Import from Cloud"
+msgstr ""
+
+#: classes/import/class-templator-import.php:254
+msgid "Activate Key"
+msgstr ""
+
+#: classes/import/class-templator-import.php:310
+#. translators: %1$s is template id and %2$s is template type.
+msgid "Error! Template ID %1$s and type %2$s."
+msgstr ""
+
+#: classes/import/class-templator-import.php:321
+#. translators: %1$s is plugin installation link.
+msgid ""
+"Elementor plugin required to import this template. <a href=\"%1$s\">Get "
+"it</a>."
+msgstr ""
+
+#: classes/import/class-templator-import.php:333
+#. translators: %1$s is plugin installation link.
+msgid ""
+"Beaver Builder plugin required to import this template. <a "
+"href=\"%1$s\">Get it</a>."
+msgstr ""
+
+#: classes/import/class-templator-import.php:344
+#. translators: %1$s post type.
+msgid "Post type of template %1$s has no support."
+msgstr ""
+
+#: classes/import/class-templator-import.php:362
+#. translators: %1$s dynamic error message.
+msgid "Not able to create post due to \"%1$s\"."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Templator"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wptemplator.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Save your templates in the cloud and access them on any other site."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Brainstorm Force"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.brainstormforce.com"
+msgstr ""

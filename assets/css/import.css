@@ -1,0 +1,94 @@
+#templator-list img {
+    width: 100%;
+}
+
+.templator-list-popup {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#templator-list .title {
+    font-weight: bold;
+    color: #474747;
+    line-height: 2;
+    background: #f7f7f7;
+    padding: 0.5em 1em;
+}
+
+#templator-list .image-wrap {
+    background-size: cover;
+    overflow: hidden;
+}
+
+#templator-templates .close
+{
+    display: inline-block;
+    padding: 2em;
+    cursor: pointer;
+}
+/**
+ * Intro
+ */
+
+.template-message-block h2 {
+    font-size: 2em;
+    margin: 0 0 0.5em 0;
+}
+
+.template-message-block {
+    text-align: center;
+    margin: 0 auto;
+    padding: 7em 0;
+}
+
+.templator #TB_ajaxContent {
+    width: 100% !important;
+}
+
+.template-message-block .spinner {
+    float: none;
+    margin: 0;
+}
+
+.templator-templates-popup {
+    position: fixed;
+    left: 0;
+    right:  0;
+    top: 0;
+    bottom:  0;
+    z-index: 99999;
+    background: #fff;
+    overflow-y: scroll;
+}
+
+.templator-templates-popup .notice {
+    max-width: 700px;
+    margin:  0 auto;
+}
+
+body.templator-popup-is-open {
+    overflow: hidden;
+}
+
+.templator-load-templates-library .dashicons {
+    height: auto;
+    width: auto;
+    line-height: normal;
+    margin: 0 5px 0 0px;
+    vertical-align: initial;
+    font-size: 100%;
+}
+
+.templator-load-templates .dashicons {
+    vertical-align: text-bottom;
+}
+
+.template-message-block.templator-redirect-to-elementor,
+.template-message-block.templator-imported,
+.template-message-block.templator-importing,
+.template-message-block.templator-loading-templates {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}

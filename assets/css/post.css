@@ -1,0 +1,61 @@
+/**
+ * Table
+ */
+.astra-input-text {
+    width: 100%;
+}
+
+.templator-heading {
+    padding: 13px 15px;
+    color: #333;
+    font-weight: bold;
+}
+
+.templator-content {
+    padding: 13px 15px;
+    position: relative;
+}
+
+.templator-row td {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.postbox table.templator-table {
+    border: none;
+}
+
+#poststuff .templator .inside {
+    margin: 0;
+    padding: 0;
+}
+
+.templator-screenshot img {
+    cursor: pointer;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.widefat td .templator-screenshot p {
+    margin: 0.2em 0;
+}
+
+/** Hide Edit URL box */
+.templator-type-image #edit-slug-box,
+.templator-type-iframe #edit-slug-box,
+.templator-type-video #edit-slug-box {
+    display: none;
+}
+
+/** Hide Beaver Builder Edit Button */
+.templator-type-image .fl-builder-admin,
+.templator-type-iframe .fl-builder-admin,
+.templator-type-video .fl-builder-admin {
+    display: none;
+}
+
+/** Hide Elementor Edit Button */
+.templator-type-image #elementor-switch-mode,
+.templator-type-iframe #elementor-switch-mode,
+.templator-type-video #elementor-switch-mode {
+    display: none;
+}

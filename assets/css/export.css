@@ -1,0 +1,203 @@
+.is-active.templator-processing + span {
+    margin-left: 5px;
+}
+.is-active.templator-processing {
+    display: inline-block;
+    margin: 0;
+    vertical-align: text-top;
+}
+.templator-processing {
+    display: none;
+    -webkit-animation: cssAnimation .72s ease infinite;
+    -moz-animation: cssAnimation .72s ease infinite;
+    -o-animation: cssAnimation .72s ease infinite;
+ }
+ @-webkit-keyframes cssAnimation {
+    from { -webkit-transform: rotate(0); }
+    to { -webkit-transform: rotate(360deg); }
+ }
+ @-moz-keyframes cssAnimation {
+    from { -moz-transform: rotate(0); }
+    to { -moz-transform: rotate(360deg); }
+ }
+ @-o-keyframes cssAnimation {
+    from { -o-transform: rotate(0); }
+    to { -o-transform: rotate(360deg); }
+}
+
+.templator-table-export {
+    border: none !important;
+    box-shadow: none !important;
+    padding: 25px 0;
+}
+
+#templator-export-popup .description {
+    text-align: center;
+    margin: -5px 0 20px 0;
+}
+
+.templator-table-export td,
+.templator-table-export th {
+    border: none !important;
+    box-shadow: none !important;
+    padding: 12px 20px;
+    vertical-align: initial;
+}
+#templator-export-popup-overlay {
+    background: #000000b3;
+    filter: alpha(opacity=70);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100050;
+}
+
+#templator-export-popup .inner {
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-sizing: border-box;
+    position: fixed;
+    background-color: #fff;
+    z-index: 100059;
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    -webkit-box-shadow: 0 3px 6px rgba( 0, 0, 0, 0.3 );
+    box-shadow: 0 3px 6px rgba( 0, 0, 0, 0.3 );
+}
+
+#templator-export-popup .tb-close-icon {
+    display: block;
+    color: #666;
+    text-align: center;
+    line-height: 29px;
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    top: 4px;
+    right: 2px;
+}
+
+#templator-export-popup input,
+#templator-export-popup select {
+    margin: 1px;
+    padding: 5px 8px;
+}
+
+#templator-export-popup .templator-export {
+    height: 30px;
+    padding: 0px 22px;
+    border-radius: 0px;
+}
+
+.templator-table-export .templator-content {
+    padding-top: 0;
+    padding-left: 0;
+}
+.templator-table-export .submit-button-td {
+    padding-left: 2px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#templator-export-popup .heading {
+    float: left;
+    font-weight: 600;
+    line-height: 35px;
+    overflow: hidden;
+    padding: 0px 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: calc( 100% - 40px );
+    background: #fcfcfc;
+    font-size: 14px;
+    border-bottom: 1px solid #e5e5e5;
+}
+#templator-license-popup .button {
+    height: 30px;
+    padding: 0px 22px;
+    border-radius: 0px;
+}
+.templator-close-popup-button {
+	position: absolute;
+    left: auto;
+    right: 0;
+    width: 29px;
+    height: 29px;
+    border: 0;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: color .1s ease-in-out, background .1s ease-in-out;
+    transition: color .1s ease-in-out, background .1s ease-in-out;
+}
+#templator-export-popup .contents {
+    clear: both;
+}
+#templator-export-popup .contents .activate-license {
+    padding: 15px 20px 25px 20px;
+}
+#templator-export-popup .activate-license .description {
+    text-align: left;
+    margin: 0;
+}
+#templator-export-popup .contents > p:first-child {
+    margin-top: 0;
+}
+
+#templator-export-popup .contents > p:last-child {
+    margin-bottom: 0;
+}
+#templator-export-popup .notice {
+    margin: 0 0 0 0px;
+    margin: 0 20px 20px 20px;
+    max-width: 350px;
+    text-align: left;
+}
+
+.templator-templates-popup .theme-browser .theme:focus,
+.templator-templates-popup .theme-browser .theme:hover {
+    cursor: auto;
+}
+
+#templator-export-popup .tb-close-icon:before {
+    content: "\f158";
+    font: normal 20px/29px dashicons;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#templator-export-popup .description {
+    margin-bottom: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+#templator-export-popup .notice.templator-export-status {
+    margin: 20px 20px 0 20px;
+    display: inline-block;
+}
+
+.templator-export-status-in-process .text {
+    color: #ffb900;
+}
+.templator-export-status-success .text {
+    color: #46b450;
+}
+
+#templator-export-popup .templator-set-media {
+    max-width: 150px;
+}
+
+
+.templator-templates-popup .wp-filter {
+    display: flex;
+    align-items: center;
+}
+
+.templator-templates-popup .filter-links {
+    flex: 1;
+}
